@@ -1,0 +1,51 @@
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: var(--colorPrincipal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header > ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.header > ul > li{
+    margin: 0 20px;
+}
+
+.header > ul > li > button{
+    background: none;
+    border: none;
+}
+
+.header > ul > li > .header-btn{
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--fontColor);
+    font-weight: 600 !important;
+    cursor: pointer;
+}
+
+.active{
+    color: var(--colorSecundario) !important;
+    position: relative;
+}
+
+.active::before{
+    content: "";
+    position: absolute;
+    bottom: -13px;
+    width: 130%;
+    right: -7px;
+    height: 5px;
+    background-color: var(--colorSecundario);
+}
+
+.header-btn:hover{
+    color: var(--colorSecundario) !important;
+}
