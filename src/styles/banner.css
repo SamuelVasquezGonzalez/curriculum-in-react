@@ -1,6 +1,5 @@
 .banner-main{
     width: 100%;
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +8,8 @@
 
 .bannerTitle{
     font-size: 112px;
-    margin-top: 65px;
+    margin-top: 50px;
+    text-align: center;
     font-family: "Josefin Sans", sans-serif;
     font-weight: 100;
     color: var(--fontColor);
@@ -131,4 +131,28 @@
 
 .wrapp{
     margin: 50px 0;
+}
+
+
+@media screen and (max-width: 648px) {
+    .bannerTitle{
+        font-size: 90px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .bannerTitle{
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .bannerTitle{
+        font-size: 50px;
+    }
+
+    .pBanner{
+        margin-top: 0;
+        text-align: center;
+    }
 }
