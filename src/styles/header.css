@@ -5,6 +5,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    box-shadow: 0 0 10px black;
 }
 
 .header > ul{

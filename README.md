@@ -1,3 +1,3 @@
 # To do list
 
-- Solved the problem of library particles.js
+- Made responsive. Continue with the info
