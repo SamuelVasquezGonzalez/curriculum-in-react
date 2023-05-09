@@ -8,6 +8,7 @@
     position: fixed;
     box-shadow: 0 0 10px black;
     top: 0;
+    z-index: 10;
 }
 
 .header > ul{

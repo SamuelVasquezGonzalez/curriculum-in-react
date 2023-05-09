@@ -1,6 +1,7 @@
 import Header from './components/header'
 import Banner from './components/banner'
 import Particle from './components/Particle'
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Banner />
       <Particle />
+      <Projects />
       
     </div>
   );

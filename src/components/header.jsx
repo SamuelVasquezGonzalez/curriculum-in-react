@@ -6,6 +6,7 @@ function Header() {
 
   const handleClick = (index) => {
     setActiveBtn(index);
+    console.log(index)
   };
 
   return (

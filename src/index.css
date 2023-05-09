@@ -25,6 +25,21 @@ body {
   --fontColor: rgb(212, 212, 212);
 }
 
-/* Title name Font
-  font-family: 'Titillium Web', sans-serif;
-*/
+
+.sectionTitle{
+  width: 400px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+  color: var(--fontColor);
+  position: relative;
+  padding-bottom: 40px;
+  text-align: center;
+  border-bottom: 5px solid var(--linesColor);
+}
+
+.pInBlue{
+  font-size: 20px;
+  color: var(--linesColor);
+  margin-top: 0;
+}

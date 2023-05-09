@@ -1,0 +1,70 @@
+.projectsMain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+
+.projectsBubbles{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.bubble{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #0e1c2586;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 10px 20px;
+}
+
+.bubble > img {
+    width: 97%;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.bubble > .bubbleInfo {
+    width: 97%;
+    height: 97%;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--fontColor);
+    font-weight: 600;
+    text-shadow: 0 1px 0 #110d17, 0 -1px 0 #110d17, 1px 0 0 #110d17, -1px 0 0 #110d17;
+    background-color: #0e1c2586;
+    border-radius: 50%;
+    transition: 0.7s all ease;
+}
+
+.bubble > .bubbleInfo > p{
+    text-align: center;
+    opacity: 0;
+    transition: 0.7s all ease;
+    width: 80%;
+}
+
+.bubble:hover > .bubbleInfo{
+    background-color: transparent;
+}
+
+.bubble:hover > .bubbleInfo > p{
+    visibility: visible;
+    opacity: 1;
+}

@@ -1,3 +1,3 @@
 # To do list
 
-- Made responsive. Continue with the info
+- Update projects card(update the img and the info, be try make with props for make more dinamic)
