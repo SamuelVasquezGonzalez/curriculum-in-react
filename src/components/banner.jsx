@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import '../styles/banner.css'
-
+  
 function Banner() {
 
   const [moneda, setMoneda] = useState(false)
   function girarMoneda (){
     setMoneda(!moneda)
   }
-
+  
   return (
     <main className="banner-main">
       <h1 className="bannerTitle">SAMUEL GONZÁLEZ</h1>

@@ -17,8 +17,8 @@
 }
 
 .bubble{
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     background-color: #0e1c2586;
     position: relative;
