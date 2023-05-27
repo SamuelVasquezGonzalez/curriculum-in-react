@@ -17,6 +17,10 @@ body {
 
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 
 :root{
   --colorPrincipal: #525e65;
@@ -42,4 +46,15 @@ body {
   font-size: 20px;
   color: var(--linesColor);
   margin-top: 0;
+}
+
+.pNormal{
+  width: 380px;
+  font-size: 20px;
+  color: var(--fontColor);
+  font-family:"Titillium Web", sans-serif;
+}
+
+.pNormal > b{
+  color: var(--linesColor);
 }

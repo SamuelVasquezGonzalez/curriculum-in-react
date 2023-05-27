@@ -9,7 +9,7 @@ function Banner() {
   }
   
   return (
-    <main className="banner-main">
+    <main className="banner-main" id="home">
       <h1 className="bannerTitle">SAMUEL GONZÁLEZ</h1>
       <p className="pBanner">THE ODYSSEY OF A FRONT/BACK WEB DEVELOPER</p>
       <div className="sistema-solar" title="Click on me!!">

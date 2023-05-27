@@ -3,12 +3,14 @@ import Banner from './components/banner'
 import Particle from './components/particle'
 import Projects from './components/Projects';
 import Bubbles from './components/bubbles';
+import Skill from './components/skills';
 import StatusMsm from './components/status';
 import LoaderVideo from './assets/loader.gif'
 
 import React, { useState, useEffect} from 'react';
 
 function App() {
+
   const [data, setData] = useState([]);
   const [state, setState] = useState({modal: "no-visible", msm: "null", status: "nothing"});
 
@@ -59,6 +61,7 @@ function App() {
           <Bubbles src={bubble.img} info={bubble.info}  url={bubble.url} key={index}/>
         ))}
       </Projects>
+      <Skill />
       <StatusMsm modal={state.modal} msm={state.msm} status={state.status} />
     </div>
   );
