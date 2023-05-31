@@ -1,13 +1,13 @@
 import React from 'react';
 
 import Projects from "../components/Projects";
-import Banner from "../components/banner/banner";
-import Footer from "../components/footer";
-import Header from "../components/header";
-import AboutMe from "../components/me";
-import Particle from "../components/particle";
-import Skill from "../components/skills";
-import Bubbles from '../components/bubbles/bubbles';
+import Banner from "../components/banner/Banner";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import AboutMe from "../components/Me";
+import Particle from "../components/Particle";
+import Skill from "../components/Skills";
+import Bubbles from '../components/bubbles/Bubbles';
 
 function Home () {
     return (
