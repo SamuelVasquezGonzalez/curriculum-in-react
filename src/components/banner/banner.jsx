@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import '../styles/banner.css'
+import './banner.css'
+import skeletonDancing from '../../assets/skeletonDancing.gif'
   
 function Banner() {
 
@@ -18,7 +19,7 @@ function Banner() {
             <img src="https://samuelvasquezgonzalez.github.io/API-portf/multimedia/me.png" alt="My Beatify face"/>
           </div>
           <div className="adelante">
-            <img src="https://samuelvasquezgonzalez.github.io/API-portf/multimedia/skeleton.gif" alt="I, but in skeleton representation :D" />
+            <img className="skeletonGif" src={skeletonDancing} alt="I, but in skeleton representation :D" />
           </div>
         </div>
         <div className="moon">
@@ -26,6 +27,7 @@ function Banner() {
         </div>
       </div>
 
+      <p className="pItalic wrapp">Owner of WhiteForest | Developer app/web</p>
       <p className="pItalic wrapp">
       "For some time, I have studied and enrolled in the sacred bootcamps of the web world and have carried out projects that make me bring the kingdom of the internet to life"
       </p>

@@ -1,25 +1,29 @@
 .header{
-    width: 100%;
-    min-height: 50px;
-    background-color: var(--colorPrincipal);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    box-shadow: 0 0 10px black;
     top: 0;
+    background-color: var(--colorPrincipal);
+    box-shadow: 0 0 10px black;
+    width: 100%;
     z-index: 10;
+    position: fixed;
 }
 
 .header > ul{
     display: flex;
-    list-style: none;
-    justify-content: center;
+    position: relative;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
 }
 
 .header > ul > li{
-    margin: 0 20px;
+    width: 76.2px;
+    text-align: center;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin: 0 12px;
+    cursor: pointer;
 }
 
 .header > ul > li > button{
@@ -38,18 +42,29 @@
 .active{
     color: var(--colorSecundario) !important;
     position: relative;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s all ease;
 }
 
 .active::before{
     content: "";
     position: absolute;
     bottom: -13px;
-    width: 130%;
-    right: -7px;
+    width: 100%;
     height: 5px;
     background-color: var(--colorSecundario);
 }
 
 .header-btn:hover{
     color: var(--colorSecundario) !important;
+}
+
+@media screen and (max-width: 500px) {
+    .header > ul{
+        margin: 0;
+    }
+    .header > ul > li{
+        margin: 10px 12px;
+    }
 }

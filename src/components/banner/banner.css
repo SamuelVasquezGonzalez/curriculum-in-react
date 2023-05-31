@@ -8,7 +8,7 @@
 
 .bannerTitle{
     font-size: 112px;
-    margin-top: 50px;
+    margin-top: 70px;
     text-align: center;
     font-family: "Josefin Sans", sans-serif;
     font-weight: 100;
@@ -75,6 +75,7 @@
     height: 100%;
     border-radius: 50%;
     opacity:0.7;
+    mix-blend-mode: screen !important;
 }
 
 .atras > img{
@@ -99,7 +100,7 @@
 .moon > img{
     opacity: 0.6;
     width: 100%;
-    animation:  girar 25s ease infinite;
+    animation:  girar 25s ease-in-out infinite;
 }
 
 @keyframes girar {
@@ -128,6 +129,7 @@
     font-size: 1.2em;
     color: var(--fontColor);
     font-style: italic;
+    text-align: justify;
 }
 
 .wrapp{
@@ -144,9 +146,9 @@
 @media screen and (max-width: 510px) {
     .bannerTitle{
         font-size: 70px;
+        margin-top: 92px;
     }
 }
-
 @media screen and (max-width: 428px) {
     .bannerTitle{
         font-size: 50px;

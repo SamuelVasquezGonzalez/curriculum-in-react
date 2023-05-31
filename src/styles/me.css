@@ -1,0 +1,29 @@
+.meMain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.BotonChange{
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 45px;
+}
+
+.BotonChange > img{
+    width: 230px;
+}
+
+.about-pContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-pContainer > p{
+    text-align: justify;
+}
