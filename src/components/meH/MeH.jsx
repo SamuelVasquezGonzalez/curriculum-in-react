@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-import meOne from '../../assets/me1.png';
-import meTwo from '../../assets/me2.png';
-import meThree from '../../assets/me3.png';
-import './me.css'
+import './me.css';
 
 function AboutMe() {
+  const meOne = 'https://samuelvasquezgonzalez.github.io/API-portf/multimedia/me1.png';
+  const meTwo = 'https://samuelvasquezgonzalez.github.io/API-portf/multimedia/me2.png';
+  const meThree = 'https://samuelvasquezgonzalez.github.io/API-portf/multimedia/me3.png';
+
   const images = [meOne, meTwo, meThree];
   const titles = ["Samuel Pixel man", "Half-life", "Carl Jhonson (cj)"];
   const [currentIndex, setCurrentIndex] = useState(0);

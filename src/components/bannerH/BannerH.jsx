@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import './banner.css'
-import skeletonDancing from '../../assets/skeletonDancing.gif'
   
 function Banner() {
+
+  
+  const skeletonDancing = 'https://samuelvasquezgonzalez.github.io/API-portf/multimedia/skeletonDancing.gif'
 
   const [moneda, setMoneda] = useState(false)
   function girarMoneda (){
@@ -16,10 +18,10 @@ function Banner() {
       <div className="sistema-solar" title="Click on me!!">
         <div className="moneda" onClick={girarMoneda} style={{ transform: `rotateY(${moneda ? '0' : '180'}deg)` }}>
           <div className="atras">
-            <img src="https://samuelvasquezgonzalez.github.io/API-portf/multimedia/me.png" alt="My Beatify face"/>
+            <img src="https://samuelvasquezgonzalez.github.io/API-portf/multimedia/me.png" alt="My Beatify face" title="Me"/>
           </div>
           <div className="adelante">
-            <img className="skeletonGif" src={skeletonDancing} alt="I, but in skeleton representation :D" />
+            <img className="skeletonGif" src={skeletonDancing} alt="I, but in skeleton representation" title="I, but in skeleton representatio" />
           </div>
         </div>
         <div className="moon">

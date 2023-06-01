@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './skills.css';
 import LoaderVideo from '../../assets/loader.gif'
-import MeMc from '../../assets/meMc.gif'
 
 function Skill() {
   const [webSkills, setWebSkills] = useState([]);
@@ -9,6 +8,8 @@ function Skill() {
   const [dbSkills, setDbSkills] = useState([]);
   const [toolSkills, setToolSkills] = useState([]);
   const [backendSkills, setBackendSkills] = useState([]);
+
+  const MeMc = 'https://samuelvasquezgonzalez.github.io/API-portf/multimedia/meMc.gif';
 
   useEffect(() => {
     fetch('https://samuelvasquezgonzalez.github.io/API-portf/api-habilidades.json')
@@ -67,7 +68,7 @@ function Skill() {
         </article>
        
         <article className='skill-article desingWeb' >
-          <h3>Web Desing</h3>
+          <h3>Web Design</h3>
           <div className="skills-container">
         {designSkills.map(skill => (
             <div className="skill-card" key={skill.imagen}>
@@ -103,7 +104,7 @@ function Skill() {
         </article>
         
         <article className='skill-article tools' >
-          <h3>Tools</h3>
+          <h3>Backend</h3>
           <div className="skills-container">
         {backendSkills.map(skill => (
             <div className="skill-card" key={skill.imagen}>
