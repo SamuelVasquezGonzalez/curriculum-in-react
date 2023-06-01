@@ -5,21 +5,29 @@ import { faGithubAlt, faFacebookF, faInstagram } from '@fortawesome/free-brands-
 import GitHubButton from 'react-github-btn';
 
 
-import '../styles/footer.css'
+import '../../styles/footer.css'
 
 
 function Footer (){
     const fechaActual = new Date();
     const añoActual = fechaActual.getFullYear();
 
+    function scrollToTop () {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+        console.log("hola")
+      };
+
     return (
         <footer>
-            <a className="a" href="mailto:samuelgonza2006@gmail.com" target="_blank">samuelgonza2006@gmail.com</a>
+            <a rel="noopener" className="a" href="mailto:samuelgonza2006@gmail.com" target="_blank">samuelgonza2006@gmail.com</a>
 
             <div className="socialmedia">
-                <a href="" target="_blank"><FontAwesomeIcon icon={faGithubAlt} /></a>
-                <a href="" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
-                <a href="" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+                <a rel="noopener" href="https://github.com/SamuelVasquezGonzalez" target="_blank" title="@SamuelVasquezGonzalez On Github"><FontAwesomeIcon icon={faGithubAlt} /></a>
+                <a rel="noopener" href="https://www.facebook.com/profile.php?id=100055489142003" title="Samuel on Facebook" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
+                <a rel="noopener" href="https://www.instagram.com/samugonza.jpg/" title="@samugonza.jpg On Instagram" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
             </div>
             <div className="github">
                 <GitHubButton href="https://github.com/SamuelVasquezGonzalez" data-size="large" data-show-count="true" aria-label="Follow @SamuelVasquezGonzalez on GitHub">Follow</GitHubButton>
@@ -27,7 +35,7 @@ function Footer (){
                 <GitHubButton href="https://github.com/SamuelVasquezGonzalez/curriculum-in-react" data-size="large" data-show-count="true" aria-label="Star SamuelVasquezGonzalez/curriculum-in-react on GitHub">Star</GitHubButton>
             </div>
             <p className="copy">&#169; {añoActual} Samuel Gonzalez</p>
-            <button className="up"><FontAwesomeIcon icon={faArrowUp} /></button>
+            <button className="up" onClick={scrollToTop}><FontAwesomeIcon icon={faArrowUp} /></button>
             <div className="background-img">
             </div>
         </footer>

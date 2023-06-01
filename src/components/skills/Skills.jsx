@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import '../styles/skills.css';
-import LoaderVideo from '../assets/loader.gif'
+import './skills.css';
+import LoaderVideo from '../../assets/loader.gif'
+import MeMc from '../../assets/meMc.gif'
 
 function Skill() {
   const [webSkills, setWebSkills] = useState([]);
@@ -44,10 +45,10 @@ function Skill() {
   }
 
   return (
-    <main className="skillsMain" id='skills'>
+    <main className="skillsMain" id="skill">
       <h2 className="sectionTitle">Skills</h2>
       <p className="pInBlue">Let's take a look at the amazing technology with which we make magic on the web</p>
-      <img className='no-bg' src="https://samuelvasquezgonzalez.github.io/API-portf/multimedia/skate.gif" alt="skate skeleton gif animation" />
+      <img className='no-bg' src={MeMc} alt="Samuel Pixelman Pixel art" title='Me on Minecraft'/>
       <p className="pNormal">
         I have the ability to manipulate the web with its different technologies. Let's start with the structure, I use <b>HTML</b> to layout the website, then I use <b>CSS</b> to give it a beautiful, responsive and user-friendly design. <b>Javascript</b> to give all the functionality to our website and make it dynamic and interactive depending on the need. He also mastered <b>React.js</b> to make the application more future scalable and competitive. <br /> <br />
         In the backend, I like to work with <b>Node.js</b> for the development of the web server and its needs, its <b>Express</b> module for routing and endpoint development. <b>MySql</b> to handle the data that needs to be stored in a database.

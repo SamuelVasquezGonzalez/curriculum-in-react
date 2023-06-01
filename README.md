@@ -1,6 +1,6 @@
 # To do list
 
-- Finish of encapsule the components
+- Fix the problem to deploy
 - Start to the Resume Page
 
 ## Folder Structure

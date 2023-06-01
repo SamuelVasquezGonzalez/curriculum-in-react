@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import meOne from '../assets/me1.png';
-import meTwo from '../assets/me2.png';
-import meThree from '../assets/me3.png';
-import '../styles/me.css'
+import meOne from '../../assets/me1.png';
+import meTwo from '../../assets/me2.png';
+import meThree from '../../assets/me3.png';
+import './me.css'
 
 function AboutMe() {
   const images = [meOne, meTwo, meThree];
@@ -14,7 +14,7 @@ function AboutMe() {
   };
 
   return (
-    <main className="meMain" id="me">
+    <main className="meMain" id="aboutMe">
       <h2 className="sectionTitle">About</h2>
       <button className="BotonChange" onClick={handleClick}>
         <img src={images[currentIndex]} alt="" title={titles[currentIndex]} />

@@ -10,7 +10,7 @@ function Banner() {
   }
   
   return (
-    <main className="banner-main" id="home">
+    <main className="banner-main" id="banner">
       <h1 className="bannerTitle">SAMUEL GONZÁLEZ</h1>
       <p className="pBanner">THE ODYSSEY OF A FRONT/BACK WEB DEVELOPER</p>
       <div className="sistema-solar" title="Click on me!!">

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import LoaderVideo from '../../assets/loader.gif';
 import '../../styles/projects.css';
 import { fetchBubblesData } from './bubbles-fetch';
 
@@ -13,7 +12,7 @@ function Bubbles() {
   return (
     <>
       {data.map((bubble, i) => (
-        <a href={bubble.url} target="_blank" className="bubble" key={i}>
+        <a href={bubble.url} target="_blank" rel="noopener" className="bubble" key={i}>
           <img src={bubble.img} alt="Project" />
           <div className="bubbleInfo">
             <p>{bubble.info}</p>
