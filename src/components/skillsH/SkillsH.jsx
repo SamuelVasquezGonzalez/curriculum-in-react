@@ -60,7 +60,7 @@ function Skill() {
           <div className="skills-container">
         {webSkills.map(skill => (
             <div className="skill-card" key={skill.imagen}>
-              <img className='skill-img' src={skill.imagen} alt="html logo" />
+              <img className='skill-img' src={skill.imagen} alt={skill.title} title={skill.title} />
               <p className='skill-p'>{skill.parrafo}</p>
             </div>
           ))}
@@ -72,7 +72,7 @@ function Skill() {
           <div className="skills-container">
         {designSkills.map(skill => (
             <div className="skill-card" key={skill.imagen}>
-              <img className='skill-img' src={skill.imagen} alt="html logo" />
+              <img className='skill-img' src={skill.imagen} alt={skill.title} title={skill.title} />
               <p className='skill-p'>{skill.parrafo}</p>
             </div>
           ))}
@@ -84,7 +84,7 @@ function Skill() {
           <div className="skills-container">
         {dbSkills.map(skill => (
             <div className="skill-card" key={skill.imagen}>
-              <img className='skill-img' src={skill.imagen} alt="html logo" />
+              <img className='skill-img' src={skill.imagen} alt={skill.title} title={skill.title} />
               <p className='skill-p'>{skill.parrafo}</p>
             </div>
           ))}
@@ -96,7 +96,7 @@ function Skill() {
           <div className="skills-container">
         {toolSkills.map(skill => (
             <div className="skill-card" key={skill.imagen}>
-              <img className='skill-img' src={skill.imagen} alt="html logo" />
+              <img className='skill-img' src={skill.imagen} alt={skill.title} title={skill.title} />
               <p className='skill-p'>{skill.parrafo}</p>
             </div>
           ))}
@@ -108,7 +108,7 @@ function Skill() {
           <div className="skills-container">
         {backendSkills.map(skill => (
             <div className="skill-card" key={skill.imagen}>
-              <img className='skill-img' src={skill.imagen} alt="html logo" />
+              <img className='skill-img' src={skill.imagen} alt={skill.title} title={skill.title} />
               <p className='skill-p'>{skill.parrafo}</p>
             </div>
           ))}
