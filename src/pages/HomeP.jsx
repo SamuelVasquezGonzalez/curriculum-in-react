@@ -5,10 +5,10 @@ import Projects from "../components/projectsComponent/ProjectsH";
 import Banner from "../components/bannerH/BannerH";
 import Footer from "../components/footer/Footer";
 import Header from "../components/headerH/HeaderH";
-import AboutMe from "../components/me/Me";
-import Particle from "../components/particle/Particle";
-import Skill from "../components/skills/Skills";
-import Bubbles from '../components/bubbles/Bubbles';
+import AboutMe from "../components/meH/MeH";
+import Particle from "../components/particleH/ParticleH";
+import Skill from "../components/skillsH/SkillsH";
+import Bubbles from '../components/bubblesH/BubblesH';
 
 function Home() {
   const [activeBtn, setActiveBtn] = useState(0);
