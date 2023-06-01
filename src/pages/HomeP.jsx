@@ -1,10 +1,10 @@
 // Home.jsx
 import React, { useEffect, useState } from 'react';
 
-import Projects from "../components/projectsComponent/Projects";
-import Banner from "../components/banner/Banner";
+import Projects from "../components/projectsComponent/ProjectsH";
+import Banner from "../components/bannerH/BannerH";
 import Footer from "../components/footer/Footer";
-import Header from "../components/header/Header";
+import Header from "../components/headerH/HeaderH";
 import AboutMe from "../components/me/Me";
 import Particle from "../components/particle/Particle";
 import Skill from "../components/skills/Skills";
