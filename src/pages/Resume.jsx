@@ -10,7 +10,7 @@ function Resume (){
     return (
         <>
             <HeaderResume />
-            <MiniBanner />
+            <MiniBanner bigTitle="RESUME"/>
             <Employment />
             <Experience />
             <Inspirations />
@@ -18,7 +18,7 @@ function Resume (){
                     <img
                     className="img-footer"
                     src="https://samuelvasquezgonzalez.github.io/API-portf/multimedia/logoVector.svg"
-                    alt="Samuel Gonzalez Logo"
+                    alt="Samuel Gonzalez Logo" title="Samuel Gonzalez Logo"
                     />
                 </div>
             <Footer />

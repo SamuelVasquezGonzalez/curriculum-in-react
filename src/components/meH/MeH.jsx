@@ -18,9 +18,9 @@ function AboutMe() {
     <main className="meMain" id="aboutMe">
       <h2 className="sectionTitle">ABOUT</h2>
       <button className="BotonChange" onClick={handleClick}>
-        <img src={images[currentIndex]} alt="" title={titles[currentIndex]} />
+        <img src={images[currentIndex]} alt={titles[currentIndex]} title={titles[currentIndex]} />
       </button>
-      <p className="pNormal">What can a "full-stack web developer" do?</p>
+      <p className="pNormal centrado">What can a "full-stack web developer" do?</p>
       <div className="about-pContainer">
         <p className="pNormal">If you can imagine it, you can program it, that's the phrase I tell myself when I set out to do something new. I am able to imagine it and bring the website from nothing to existence, I do not use tricks or magic. I specialize in manipulating the very structure of the web, its raw materials, HTML, CSS, Javascript and React.js if necessary</p>
         <p className="pNormal">Open source technologies empower me in the process, I am an expert in developing custom plugins and components in React. I fully embrace the Visual Studio Code editor and can build custom projects from scratch for any conceivable need. I have contributed to small projects of colleagues and intend to give back every chance I get.</p>

@@ -66,7 +66,7 @@
 
 @media screen and (max-width: 500px) {
     .header > ul{
-        margin: 0;
+        margin: 3px 0;
     }
     .header > ul > li{
         margin: 10px 12px;

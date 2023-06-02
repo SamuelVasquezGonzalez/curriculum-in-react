@@ -149,7 +149,7 @@
         margin-top: 92px;
     }
 }
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 401px) {
     .bannerTitle{
         font-size: 50px;
     }
@@ -157,5 +157,9 @@
     .pBanner{
         margin-top: 0;
         text-align: center;
+    }
+
+    .pItalic{
+        width: 320px;
     }
 }

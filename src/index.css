@@ -49,7 +49,7 @@ html{
   min-width: 250px;
   color: var(--linesColor);
   margin-top: 0;
-  text-align: justify;
+  text-align: center;
 }
 
 .pNormal{
@@ -65,12 +65,29 @@ html{
   color: var(--linesColor);
 }
 
-@media screen and (max-width: 470px) {
-  .sectionTitle{
-    width: 200px;
-  }
+@media screen and (max-width: 501px) {
 
   .pInBlue{
     width: 350px;
+  }
+
+  .pNormal{
+    width: 350px !important;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .sectionTitle{
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 401px) {
+  .pInBlue{
+    width: 320px;
+  }
+
+  .pNormal{
+    width: 320px !important;
   }
 }
