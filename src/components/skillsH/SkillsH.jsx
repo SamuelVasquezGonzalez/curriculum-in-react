@@ -47,7 +47,7 @@ function Skill() {
 
   return (
     <main className="skillsMain" id="skill">
-      <h2 className="sectionTitle">Skills</h2>
+      <h2 className="sectionTitle">SKILLS</h2>
       <p className="pInBlue">Let's take a look at the amazing technology with which we make magic on the web</p>
       <img className='no-bg' src={MeMc} alt="Samuel Pixelman Pixel art" title='Me on Minecraft'/>
       <p className="pNormal">
@@ -56,7 +56,7 @@ function Skill() {
       </p>
 
         <article className='skill-article Web' >
-          <h3>Web Development</h3>
+          <h3>WEB</h3>
           <div className="skills-container">
         {webSkills.map(skill => (
             <div className="skill-card" key={skill.imagen}>
@@ -68,7 +68,7 @@ function Skill() {
         </article>
        
         <article className='skill-article desingWeb' >
-          <h3>Web Design</h3>
+          <h3>DESIGN</h3>
           <div className="skills-container">
         {designSkills.map(skill => (
             <div className="skill-card" key={skill.imagen}>
@@ -80,7 +80,7 @@ function Skill() {
         </article>
         
         <article className='skill-article db' >
-          <h3>Data Base</h3>
+          <h3>DATA BASE</h3>
           <div className="skills-container">
         {dbSkills.map(skill => (
             <div className="skill-card" key={skill.imagen}>
@@ -92,7 +92,7 @@ function Skill() {
         </article>
         
         <article className='skill-article tools' >
-          <h3>Tools</h3>
+          <h3>TOOLS</h3>
           <div className="skills-container">
         {toolSkills.map(skill => (
             <div className="skill-card" key={skill.imagen}>
@@ -104,7 +104,7 @@ function Skill() {
         </article>
         
         <article className='skill-article tools' >
-          <h3>Backend</h3>
+          <h3>BACKEND</h3>
           <div className="skills-container">
         {backendSkills.map(skill => (
             <div className="skill-card" key={skill.imagen}>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
 
@@ -22,8 +22,9 @@ html{
 
 :root{
   --colorPrincipal: #525e65;
-  --colorSecundario: aquamarine;
-  --linesColor: #485e81;
+  --colorSecundario: #73CCA8;
+  --masFuerte: #66daab;
+  --linesColor: #7e94b5;
   --fontColor: rgb(212, 212, 212);
 }
 
@@ -31,8 +32,9 @@ html{
 .sectionTitle{
   width: 400px;
   min-width: 200px;
-  font-size: 40px;
-  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: 2px;
+  font-weight: 500;
   font-family: 'Josefin Sans', sans-serif;
   color: var(--fontColor);
   position: relative;
@@ -43,7 +45,7 @@ html{
 
 .pInBlue{
   font-size: 1.2rem;
-  width: 400px;
+  width: 480px;
   min-width: 250px;
   color: var(--linesColor);
   margin-top: 0;
@@ -51,7 +53,7 @@ html{
 }
 
 .pNormal{
-  width: 350px;
+  width: 480px;
   min-width: 250px;
   font-size: 1.2rem;
   color: var(--fontColor);

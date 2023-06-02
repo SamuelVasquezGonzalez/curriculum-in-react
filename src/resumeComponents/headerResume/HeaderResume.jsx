@@ -1,45 +1,44 @@
-// Header.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './header.css';
+import '../../components/headerH/header.css'
 
-function Header({ activeBtn }) {
+function HeaderResume() {
   return (
     <div className="header">
       <ul className="header-list">
-        <li className={activeBtn === 0 ? 'li-btn active' : 'li-btn'}>
+        <li className="li-btn">
           <a
-            href="#banner"
+            href="/"
             className='header-btn'
           >
             Home
           </a>
         </li>
-        <li className={activeBtn === 1 ? 'li-btn active' : 'li-btn'}>
+        <li className="li-btn">
           <a
-            href="#projects"
+            href="/#projects"
             className='header-btn'
           >
             Projects
           </a>
         </li>
-        <li className={activeBtn === 2 ? 'li-btn active' : 'li-btn'}>
+        <li className="li-btn">
           <a
-            href="#skill"
+            href="/#skills"
             className='header-btn'
           >
             Skills
           </a>
         </li>
-        <li className={activeBtn === 3 ? 'li-btn active' : 'li-btn'}>
+        <li className="li-btn">
           <a
-            href="#aboutMe"
+            href="/#aboutMe"
             className='header-btn'
           >
             About
           </a>
         </li>
-        <li className="li-btn">
+        <li className="li-btn active">
           <Link to="/resume" className="header-btn">
             Resume
           </Link>
@@ -49,4 +48,4 @@ function Header({ activeBtn }) {
   );
 }
 
-export default Header;
+export default HeaderResume;

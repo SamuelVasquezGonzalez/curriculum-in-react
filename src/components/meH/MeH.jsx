@@ -16,7 +16,7 @@ function AboutMe() {
 
   return (
     <main className="meMain" id="aboutMe">
-      <h2 className="sectionTitle">About</h2>
+      <h2 className="sectionTitle">ABOUT</h2>
       <button className="BotonChange" onClick={handleClick}>
         <img src={images[currentIndex]} alt="" title={titles[currentIndex]} />
       </button>

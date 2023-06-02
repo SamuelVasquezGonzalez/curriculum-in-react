@@ -1,0 +1,22 @@
+.employment{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.centrado{
+    text-align: center !important; 
+}
+
+.a-style{
+    font-size: 22px;
+    color: var(--colorSecundario);
+    text-decoration: none;
+    position: relative;
+}
+
+.a-style:hover{
+    text-decoration: underline;
+}

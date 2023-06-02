@@ -14,10 +14,11 @@
     justify-content: center;
     align-items: center;
     padding: 0;
+    margin: 13px 0;
 }
 
 .header > ul > li{
-    width: 76.2px;
+    width: 65px;
     text-align: center;
     display: flex !important;
     align-items: center;
@@ -34,17 +35,20 @@
 .header > ul > li > .header-btn{
     font-size: 16px;
     text-decoration: none;
-    color: var(--fontColor);
-    font-weight: 600 !important;
+    color: #DBE8D4;
+    font-weight: 400;
     cursor: pointer;
 }
 
 .active{
-    color: var(--colorSecundario) !important;
     position: relative;
     display: flex;
     justify-content: center;
     transition: 0.3s all ease;
+}
+
+.active > a{
+    color: var(--masFuerte) !important;
 }
 
 .active::before{

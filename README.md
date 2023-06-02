@@ -1,6 +1,5 @@
 # To do list
 
-- Fix the problem to deploy
 - Start to the Resume Page
 
 ## Folder Structure

@@ -23,9 +23,11 @@
 }
 
 h3{
-    font-size: 35px;
+    font-size: 32px;
     color: var(--fontColor);
-
+    font-family: 'Josefin Sans';
+    letter-spacing: 2px;
+    font-weight: 500
 }
 
 .skills-container{
