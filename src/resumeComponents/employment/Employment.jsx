@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import './employment.css'
 
-function Employment () {
+function Employment() {
     return (
         <main className="employment">
             <h2 className="sectionTitle">EMPLOYMENT</h2>

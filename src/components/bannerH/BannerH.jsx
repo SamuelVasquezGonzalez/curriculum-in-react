@@ -25,7 +25,7 @@ function Banner() {
           </div>
         </div>
         <div className="moon">
-          <img src="https://portafoliopersonal.onrender.com/multimedia/moon.png" alt="Moon" title="Moon" />
+          <img src="https://samuelvasquezgonzalez.github.io/API-portf/multimedia/moon.png" alt="Moon" title="Moon" />
         </div>
       </div>
 

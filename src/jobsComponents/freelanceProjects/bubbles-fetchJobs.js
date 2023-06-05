@@ -1,7 +1,7 @@
 import LoaderVideo from '../../assets/loader.gif'
 
 export async function fetchBubblesData(reqData) { 
-  fetch('https://samuelvasquezgonzalez.github.io/API-portf/freelance.json')
+  await fetch('https://samuelvasquezgonzalez.github.io/API-portf/freelance.json')
     .then(response => response.json())
     .then(response => {
       reqData(response)
