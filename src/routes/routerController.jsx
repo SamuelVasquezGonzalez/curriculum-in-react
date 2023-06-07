@@ -3,14 +3,14 @@ import Resume from '../pages/Resume'
 import Jobs from '../pages/Jobs'
 
 const rutas = [
-    {path: '/', component: Home},
-    {path: '/Home', component: Home, exact: true},
-    {path: '*', component: Home},
+    {path: '/', element: Home},
+    {exact: true, path: '/Home', element: Home},
+    {path: '*', element: Home},
 
     
-    {path: '/resume', component: Resume, exact: true},
+    {exact: true, path: '/resume', element: Resume},
 
-    {path: '/employment/freelancer', component: Jobs, exact: true}
+    {exact: true, path: '/employment/freelancer', element: Jobs}
 ]
 
 export default rutas;

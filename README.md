@@ -1,6 +1,6 @@
 # To do list
 
-- Start to the Resume Page
+- Optimize the site web
 
 ## Folder Structure
 ```

@@ -4,9 +4,16 @@ import HeaderResume from "../resumeComponents/headerResume/HeaderResume";
 import BubblesJ from "../jobsComponents/freelanceProjects/BubblesFree";
 import Footer from "../components/footer/Footer";
 
+import { Helmet } from "react-helmet";
+
 function Jobs () {
     return (
         <>
+            <Helmet>
+                <title>Samuel Gonzalez | Freelance</title>
+                <meta name="description" content="A lo largo de mi aprendizaje en el desarrollo, he ido desarrollando proyectos que me hacen crecer como desarollador y que quiero mostrar a las personas que me visitan" />
+                <link rel="canonical" href="https://samuelgonzalez.onrender.com/employment/freelancer" />
+            </Helmet>
             <HeaderResume />
             <ResumeBanner bigTitle="FREELANCE" />
             <BubblesJ />
