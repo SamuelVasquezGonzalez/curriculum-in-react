@@ -8,9 +8,9 @@ const rutas = [
     {path: '*', component: Home},
 
     
-    {path: '/resume', component: Resume},
+    {path: '/resume', component: Resume, exact: true},
 
-    {path: '/employment/freelancer', component: Jobs}
+    {path: '/employment/freelancer', component: Jobs, exact: true}
 ]
 
 export default rutas;
