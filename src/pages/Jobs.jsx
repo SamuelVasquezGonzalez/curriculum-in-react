@@ -6,7 +6,7 @@ import Footer from "../components/footer/Footer";
 
 import { Helmet } from "react-helmet";
 
-function Jobs () {
+const Jobs = () => {
     return (
         <>
             <Helmet>

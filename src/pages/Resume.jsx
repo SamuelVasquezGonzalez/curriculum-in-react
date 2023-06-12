@@ -7,7 +7,7 @@ import Inspirations from "../resumeComponents/inspirations/Inspirations";
 import Footer from '../components/footer/Footer'
 import { Helmet } from "react-helmet";
 
-function Resume (){
+const Resume = () =>{
     return (
         <>
             <Helmet>

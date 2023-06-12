@@ -1,16 +1,16 @@
+import { createBrowserRouter } from 'react-router-dom';
 import Home from '../pages/HomeP'
 import Resume from '../pages/Resume'
 import Jobs from '../pages/Jobs'
 
-const rutas = [
-    {path: '/', element: Home},
-    {exact: true, path: '/Home', element: Home},
-    {path: '*', element: Home},
 
+export const router = createBrowserRouter([
+    {path: '/', element: <Home />},
+    {path: '/Home', element: <Home />},
     
-    {exact: true, path: '/resume', element: Resume},
+    
+    {path: '/resume', element: <Resume />},
+    {path: '/employment/freelancer', element: <Jobs />},
 
-    {exact: true, path: '/employment/freelancer', element: Jobs}
-]
-
-export default rutas;
+    {path: '*', element: <Home />}
+]);

@@ -10,7 +10,7 @@ import Particle from "../components/particleH/ParticleH";
 import Skill from "../components/skillsH/SkillsH";
 import Bubbles from '../components/bubblesH/BubblesH';
 
-function Home() {
+const Home = () => {
   const [activeBtn, setActiveBtn] = useState(0);
 
   useEffect(() => {
