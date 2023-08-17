@@ -20,3 +20,9 @@
 .a-style:hover{
     text-decoration: underline;
 }
+
+.job{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

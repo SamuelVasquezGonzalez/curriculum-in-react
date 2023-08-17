@@ -19,6 +19,9 @@ function AboutMe() {
       <h2 className="sectionTitle">ABOUT</h2>
       <button className="BotonChange" onClick={handleClick}>
         <img src={images[currentIndex]} alt={titles[currentIndex]} title={titles[currentIndex]} />
+        <div className="tooltip">
+          <img src="https://samuelvasquezgonzalez.github.io/API-portf/multimedia/mensaje.png" alt="Mensaje flotante" />
+        </div>
       </button>
       <p className="pNormal centrado">What can a "full-stack web developer" do?</p>
       <div className="about-pContainer">

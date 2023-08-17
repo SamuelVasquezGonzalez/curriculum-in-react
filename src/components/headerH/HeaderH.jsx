@@ -1,6 +1,6 @@
 // Header.jsx
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './header.css';
 
 function Header({ activeBtn }) {
@@ -40,9 +40,9 @@ function Header({ activeBtn }) {
           </a>
         </li>
         <li className="li-btn">
-          <Link to="/resume" className="header-btn">
+          <NavLink to="/resume" className="header-btn">
             Resume
-          </Link>
+          </NavLink>
         </li>
       </ul>
     </div>

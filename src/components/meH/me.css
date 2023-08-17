@@ -12,10 +12,22 @@
     border: none;
     cursor: pointer;
     margin-bottom: 45px;
+    position: relative;
 }
 
 .BotonChange > img{
     width: 230px;
+}
+
+.tooltip{
+    position: absolute;
+    top: 30px;
+    left: -50px;
+    animation: flotar 1.5s infinite linear alternate;
+}
+
+.tooltip > img{
+    width: 120px;
 }
 
 .about-pContainer{
@@ -26,4 +38,13 @@
 
 .about-pContainer > p{
     text-align: justify;
+}
+
+@keyframes flotar {
+    to{
+        top: 30px
+    }
+    from{
+        top: 45px
+    }
 }
