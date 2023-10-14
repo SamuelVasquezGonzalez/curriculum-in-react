@@ -12,7 +12,7 @@ function Bubbles() {
   return (
     <>
       {data.map((bubble, i) => (
-        <a href={bubble.url} target="_blank" rel="noopener" className="bubble" key={i}>
+        <a href={bubble.url} target="_blank" rel="noreferrer" className="bubble" key={i}>
           <img src={bubble.img} alt={bubble.title} title={bubble.title} />
           <div className="bubbleInfo">
             <p>{bubble.info}</p>

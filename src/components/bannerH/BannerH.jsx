@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './banner.css'
+import One from '../../assets/perfil1.png'
   
 function Banner() {
 
@@ -18,10 +19,10 @@ function Banner() {
       <div className="sistema-solar" title="Click on me!!">
         <div className="moneda" onClick={girarMoneda} style={{ transform: `rotateY(${moneda ? '0' : '180'}deg)` }}>
           <div className="atras">
-            <img src="https://samuelvasquezgonzalez.github.io/API-portf/multimedia/me.png" alt="My Beatify face" title="Me"/>
+            <img src={One} alt="My Beatify face" title="Me"/>
           </div>
           <div className="adelante">
-            <img className="skeletonGif" src={skeletonDancing} alt="I, but in skeleton representation" title="I, but in skeleton representatio" />
+            <img className="skeletonGif" src="https://samuelvasquezgonzalez.github.io/API-portf/multimedia/me.png" alt="I, but in skeleton representation" title="I, but in skeleton representatio" />
           </div>
         </div>
         <div className="moon">
