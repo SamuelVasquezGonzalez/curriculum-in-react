@@ -22,12 +22,12 @@ function Footer (){
 
     return (
         <footer>
-            <a rel="noopener" className="a" href="mailto:samuelgonza2006@gmail.com" target="_blank">samuelgonza2006@gmail.com</a>
+            <a rel="noreferrer" className="a" href="mailto:samuelgonza2006@gmail.com" target="_blank">samuelgonza2006@gmail.com</a>
 
             <div className="socialmedia">
-                <a rel="noopener" href="https://github.com/SamuelVasquezGonzalez" target="_blank" title="@SamuelVasquezGonzalez On Github"><FontAwesomeIcon icon={faGithubAlt} /></a>
-                <a rel="noopener" href="https://www.facebook.com/profile.php?id=100055489142003" title="Samuel on Facebook" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
-                <a rel="noopener" href="https://www.instagram.com/samugonza.jpg/" title="@samugonza.jpg On Instagram" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+                <a rel="noreferrer" href="https://github.com/SamuelVasquezGonzalez" target="_blank" title="@SamuelVasquezGonzalez On Github"><FontAwesomeIcon icon={faGithubAlt} /></a>
+                <a rel="noreferrer" href="https://www.facebook.com/profile.php?id=100055489142003" title="Samuel on Facebook" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
+                <a rel="noreferrer" href="https://www.instagram.com/samugonza.jpg/" title="@samugonza.jpg On Instagram" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
             </div>
             <div className="github">
                 <GitHubButton href="https://github.com/SamuelVasquezGonzalez" data-size="large" data-show-count="true" aria-label="Follow @SamuelVasquezGonzalez on GitHub">Follow</GitHubButton>

@@ -4,9 +4,6 @@ import One from '../../assets/perfil1.png'
   
 function Banner() {
 
-  
-  const skeletonDancing = 'https://samuelvasquezgonzalez.github.io/API-portf/multimedia/skeletonDancing.gif'
-
   const [moneda, setMoneda] = useState(false)
   function girarMoneda (){
     setMoneda(!moneda)
