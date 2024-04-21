@@ -10,9 +10,9 @@ const Jobs = () => {
     return (
         <>
             <Helmet>
-                <title>Samuel Gonzalez | Freelance</title>
+                <title>Samuel Gonzalez | Freelance Jobs</title>
                 <meta name="description" content="A lo largo de mi aprendizaje en el desarrollo, he ido desarrollando proyectos que me hacen crecer como desarollador y que quiero mostrar a las personas que me visitan" />
-                <link rel="canonical" href="https://samuelgonzalez.onrender.com/employment/freelancer" />
+                <link rel="canonical" href="https://samuegonzalez.netlify.app/employment/freelancer" />
             </Helmet>
             <HeaderResume />
             <ResumeBanner bigTitle="FREELANCE" />

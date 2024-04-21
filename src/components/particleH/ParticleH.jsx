@@ -9,7 +9,7 @@ function Particle() {
     }
 
     const particlesLoaded = (container) =>{
-        console.log("Particles Loaded")
+        return;
     }
 
     return (

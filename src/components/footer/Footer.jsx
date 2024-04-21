@@ -17,7 +17,6 @@ function Footer (){
           top: 0,
           behavior: 'smooth'
         });
-        console.log("hola")
       };
 
     return (
@@ -26,7 +25,7 @@ function Footer (){
 
             <div className="socialmedia">
                 <a rel="noreferrer" href="https://github.com/SamuelVasquezGonzalez" target="_blank" title="@SamuelVasquezGonzalez On Github"><FontAwesomeIcon icon={faGithubAlt} /></a>
-                <a rel="noreferrer" href="https://www.facebook.com/profile.php?id=100055489142003" title="Samuel on Facebook" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
+                <a rel="noreferrer" href="https://www.facebook.com/sgonzaaa/" title="Samuel on Facebook" target="_blank"><FontAwesomeIcon icon={faFacebookF} /></a>
                 <a rel="noreferrer" href="https://www.instagram.com/samugonza.jpg/" title="@samugonza.jpg On Instagram" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
             </div>
             <div className="github">

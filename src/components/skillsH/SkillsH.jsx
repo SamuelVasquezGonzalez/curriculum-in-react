@@ -31,7 +31,6 @@ function Skill() {
   }
 
   function handleFetchError(error) {
-    console.log(error);
   
     const errorSkill = {
       imagen: LoaderVideo,
